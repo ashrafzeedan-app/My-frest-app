@@ -1,9 +1,7 @@
-from flet import *
+import flet as ft
 
-def main(page.Page):
-    T = Text('hello welcome')
+def main(page: ft.Page):
+    T = ft.Text('hello welcome')
     page.add(T)
 
-    page.update()
-
-app.(main)
+ft.app.(target=main)
